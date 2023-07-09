@@ -3,11 +3,11 @@
 <h5 align="center">An open-source weapon editor for Modern Warfare: Cubed!</h5>
 
 <p align="center">
-  <a href="https://modrinth.com/mod/modern-warfare-cubed">
+  <a href="https://modrinth.com/mod/pwem">
     <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">
   </a>
 
-  <a href="https://www.curseforge.com/minecraft/mc-mods/modern-warfare-cubed">
+  <a href="https://www.curseforge.com/minecraft/mc-mods/pwem">
     <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">
   </a>
 
