@@ -60,12 +60,6 @@ public class MakarovPMFactoryMixin {
         return shotList.stream().mapToInt(Integer::intValue).toArray();
     }
 
-    @ModifyArg(method = "createGun", at = @At(value = "INVOKE", target = "Lcom/paneedah/weaponlib/Weapon$Builder;withRecoilParam(Lcom/paneedah/weaponlib/compatibility/RecoilParam;)Lcom/paneedah/weaponlib/Weapon$Builder;", remap = false), remap = false, require = 0)
-    private RecoilParam modifyRecoilParam(final RecoilParam rp) {
-        final JSONObject o = weaponData.getJsonObject("recoil");
-        return new RecoilParam(o.getFloat("weaponPower"), o.getFloat("muzzleClimbDivisor"), o.getFloat("stockLength"), o.getFloat("prnr"), o.getFloat("prnsr"), o.getFloat("weaponRotX"), o.getFloat("weaponRotY"), o.getFloat("adsSimilarity"));
-    }
-
     @ModifyArg(method = "createGun", at = @At(value = "INVOKE", target = "Lcom/paneedah/weaponlib/Weapon$Builder;withShootSound(Ljava/lang/String;)Lcom/paneedah/weaponlib/Weapon$Builder;", remap = false), remap = false, require = 0)
     private String modifyShootSound(final String s) {
         return weaponData.getString("sound.shoot");
