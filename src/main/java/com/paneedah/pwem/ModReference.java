@@ -1,6 +1,5 @@
 package com.paneedah.pwem;
 
-import io.redstudioragnarok.redcore.Tags;
 import io.redstudioragnarok.redcore.logging.RedLogger;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
