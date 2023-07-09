@@ -1,0 +1,34 @@
+{
+    "stats": {
+        "damage": 6.6,
+        "fireRate": 0.6,
+        "recoil": 3.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "recoil": {
+        "weaponPower": 15.0,
+        "muzzleClimbDivisor": 15.75,
+        "stockLength": 50.0,
+        "prnr": 0.4,
+        "prnsr": 0.3125,
+        "weaponRotX": 0.0,
+        "weaponRotY": 0.0,
+        "adsSimilarity": 1.0
+    },
+    "sound": {
+        "shoot": "ak15",
+        "silencedShoot": "ak15_silenced",
+        "reload": "ak_reload",
+        "unload": "ak_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "ak_draw"
+    }
+}

@@ -11,6 +11,7 @@
         "AACHoneyBadgerFactoryMixin",
         "ACRFactoryMixin",
         "AK12_kalFactoryMixin",
-        "AK12FactoryMixin"
+        "AK12FactoryMixin",
+        "AK15FactoryMixin"
     ]
 }
