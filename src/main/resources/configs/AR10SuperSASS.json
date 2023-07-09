@@ -1,0 +1,34 @@
+{
+    "stats": {
+        "damage": 10.0,
+        "fireRate": 0.8,
+        "recoil": 5.0,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "DMR"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "recoil": {
+        "weaponPower": 22.5,
+        "muzzleClimbDivisor": 21.375,
+        "stockLength": 50.0,
+        "prnr": 0.4625,
+        "prnsr": 0.225,
+        "weaponRotX": 0.0,
+        "weaponRotY": 0.0,
+        "adsSimilarity": 1.0
+    },
+    "sound": {
+        "shoot": "m110",
+        "silencedShoot": "m110_silenced",
+        "reload": "m4a1_reload",
+        "unload": "scar_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "m4a1_inspection",
+        "draw": "m4_draw"
+    }
+}

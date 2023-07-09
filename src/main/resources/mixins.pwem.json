@@ -17,6 +17,7 @@
         "AK74FactoryMixin",
         "AK101FactoryMixin",
         "APC9FactoryMixin",
-        "APSFactoryMixin"
+        "APSFactoryMixin",
+        "AR10SuperSASSFactoryMixin"
     ]
 }
