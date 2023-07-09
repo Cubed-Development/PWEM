@@ -50,6 +50,13 @@ configurations {
 
 repositories {
     maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+
+    maven {
         name 'Cleanroom'
         url 'https://maven.cleanroommc.com'
     }
@@ -67,6 +74,9 @@ repositories {
 dependencies {
     implementation 'Red-Studio-Ragnarok:Red-Core:0.2'
     sources 'Red-Studio-Ragnarok:Red-Core:0.2:sources@jar'
+
+    implementation group: 'org.json', name: 'json', version: '20230618'
+    implementation rfg.deobf("curse.maven:modern-warfare-cubed-836353:4556604")
     
     String mixin = modUtils.enableMixins('zone.rong:mixinbooter:8.3', "mixins.${project.id}.refmap.json")
     api (mixin) { transitive = false }

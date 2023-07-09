@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.paneedah.pwem.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "mixins.pwem.refmap.json",
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "mixins": [
+        "AACHoneyBadgerFactoryMixin"
+    ]
+}

@@ -8,9 +8,11 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 public class ModReference {
+
     public static final String MODID = Tags.ID;
     public static final String NAME = "Panda's Weapon Editor Mod";
     public static final String VERSION = Tags.VERSION;
+    public static final String DEPENDENCIES = "required:mwc@[0.1,)";
     public static final Logger LOG = LogManager.getLogger(NAME);
     public static final RedLogger REDLOG;
 
