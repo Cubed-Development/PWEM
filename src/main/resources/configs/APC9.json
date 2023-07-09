@@ -23,12 +23,12 @@
         "adsSimilarity": 1.0
     },
     "sound": {
-        "shoot": "ak101",
-        "silencedShoot": "ak15_silenced",
-        "reload": "ak_reload",
-        "unload": "ak_unload",
+        "shoot": "apc9",
+        "silencedShoot": "mp5_silenced",
+        "reload": "mpx_reload",
+        "unload": "mpx_unload",
         "endOfShootSound": "gun_click",
         "inspect": "inspection",
-        "draw": "ak_draw"
+        "draw": "noaction_draw"
     }
 }
