@@ -1,0 +1,34 @@
+{
+    "stats": {
+        "damage": 6.0,
+        "fireRate": 0.65,
+        "recoil": 3.0,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 3,
+        "auto": true
+    },
+    "recoil": {
+        "weaponPower": 15.0,
+        "muzzleClimbDivisor": 15.75,
+        "stockLength": 50.0,
+        "prnr": 0.4,
+        "prnsr": 0.3125,
+        "weaponRotX": 0.0,
+        "weaponRotY": 0.0,
+        "adsSimilarity": 1.0
+    },
+    "sound": {
+        "shoot": "acr",
+        "silencedShoot": "m4a1_silenced",
+        "reload": "acr_reload",
+        "unload": "acr_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "m4a1_inspection",
+        "draw": "acr_draw"
+    }
+}

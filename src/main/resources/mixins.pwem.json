@@ -8,6 +8,9 @@
         "defaultRequire": 1
     },
     "mixins": [
-        "AACHoneyBadgerFactoryMixin"
+        "AACHoneyBadgerFactoryMixin",
+        "ACRFactoryMixin",
+        "AK12_kalFactoryMixin",
+        "AK12FactoryMixin"
     ]
 }

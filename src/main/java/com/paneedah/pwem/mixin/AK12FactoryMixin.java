@@ -1,6 +1,6 @@
 package com.paneedah.pwem.mixin;
 
-import com.paneedah.mwc.items.guns.AACHoneyBadgerFactory;
+import com.paneedah.mwc.items.guns.AK12Factory;
 import com.paneedah.pwem.JsonDataManager;
 import com.paneedah.pwem.PWEM;
 import com.paneedah.weaponlib.compatibility.RecoilParam;
@@ -14,10 +14,10 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-@Mixin(value = AACHoneyBadgerFactory.class, remap = false)
-public class AACHoneyBadgerFactoryMixin {
+@Mixin(value = AK12Factory.class, remap = false)
+public class AK12FactoryMixin {
 
-    private static final String weaponName = AACHoneyBadgerFactory.class.getSimpleName().replace("Factory", "");
+    private static final String weaponName = AK12Factory.class.getSimpleName().replace("Factory", "");
     private static final JsonDataManager weaponData = new JsonDataManager(new File(PWEM.CONFIG_DIR, weaponName+".json"));
 
     @ModifyArg(method = "createGun", at = @At(value = "INVOKE", target = "Lcom/paneedah/weaponlib/Weapon$Builder;withSpawnEntityDamage(F)Lcom/paneedah/weaponlib/Weapon$Builder;", remap = false), remap = false, require = 0)
