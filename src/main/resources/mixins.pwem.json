@@ -15,6 +15,7 @@
         "AK15FactoryMixin",
         "AK47FactoryMixin",
         "AK74FactoryMixin",
-        "AK101FactoryMixin"
+        "AK101FactoryMixin",
+        "APC9FactoryMixin"
     ]
 }
