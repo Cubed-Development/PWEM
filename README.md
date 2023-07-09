@@ -101,8 +101,14 @@ Here's a default configuration file for the **AACHoneyBadger**, and I will walk 
 - `auto` - Whether or not the weapon can shoot in automatic fire mode.
 
 ### Recoil
-To be completely honest, I'm not sure what most of these do. I will update this section once I figure it out.
-- These values seem to affect the recoil pattern.
+- `weaponPower` - The power of the weapon.
+- `muzzleClimbDivisor` - The muzzle climb divisor.
+- `stockLength` - "Stock Length".
+- `prnr` - Recovery rate from initial shot.
+- `prnsr` - Recovery rate @ "stock".
+- `weaponRotX` - Weapon rotation X.
+- `weaponRotY` - Weapon rotation Y.
+- `adsSimilarity` - ADS Similarity divisor.
 
 ### Sound
 - `shoot` - The sound the weapon will make when shooting.
