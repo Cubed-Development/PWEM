@@ -19,6 +19,7 @@
         "APC9FactoryMixin",
         "APSFactoryMixin",
         "AR10SuperSASSFactoryMixin",
-        "AR15FactoryMixin"
+        "AR15FactoryMixin",
+        "ARX160FactoryMixin"
     ]
 }
