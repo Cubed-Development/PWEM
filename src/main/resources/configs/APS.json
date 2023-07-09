@@ -10,7 +10,7 @@
     "shooting": {
         "single": true,
         "burst": 0,
-        "auto": false
+        "auto": true
     },
     "recoil": {
         "weaponPower": 15.0,
