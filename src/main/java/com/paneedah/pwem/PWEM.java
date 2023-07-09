@@ -17,16 +17,5 @@ public class PWEM {
     public void preInit(FMLPreInitializationEvent e) {
         if (!CONFIG_DIR.exists())
             CONFIG_DIR.mkdirs();
-
-        File testGun = new File("C:\\Users\\Paneedah\\Desktop\\Modern-Warfare-Cubed\\src\\main\\java\\com\\paneedah\\mwc\\items\\guns\\AACHoneyBadgerFactory.java");
-        if (!testGun.exists()) {
-            try {
-                testGun.createNewFile();
-            } catch (Exception ex) {
-                ex.printStackTrace();
-            }
-        }
-
-        new GunInformation(testGun);
     }
 }
