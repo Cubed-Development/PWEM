@@ -5,7 +5,7 @@
         "recoil": 3.0,
         "gravity": 0.02,
         "zoom": 0.9,
-        "group": "PISTOL"
+        "group": "SIDEARM"
     },
     "shooting": {
         "single": true,
