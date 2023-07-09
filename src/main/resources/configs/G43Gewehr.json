@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 13.5,
+        "fireRate": 0.25,
+        "recoil": 4.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "g43_gewehr",
+        "silencedShoot": "g43_gewehr",
+        "reload": "g43_gewehr_reload",
+        "unload": "g43_gewehr_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "g43_gewehr_draw"
+    }
+}

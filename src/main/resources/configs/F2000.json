@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 6,
+        "fireRate": 0.85,
+        "recoil": 1.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "f2000",
+        "silencedShoot": "m4a1_silenced",
+        "reload": "f2000_reload",
+        "unload": "f2000_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "noaction_draw"
+    }
+}

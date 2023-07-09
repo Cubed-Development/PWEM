@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 10,
+        "fireRate": 0.65,
+        "recoil": 6,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "DMR"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "m110",
+        "silencedShoot": "m110_silenced",
+        "reload": "m4a1_reload",
+        "unload": "m4_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "m4a1_inspection",
+        "draw": "m4_draw"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 70,
+        "fireRate": 0.1,
+        "recoil": 5,
+        "gravity": 0.001,
+        "zoom": 0.9,
+        "group": "null"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "m202",
+        "silencedShoot": "m202",
+        "reload": "rpg7_reload",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "null",
+        "draw": "null"
+    }
+}

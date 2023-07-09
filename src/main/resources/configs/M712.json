@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 5.4,
+        "fireRate": 0.75,
+        "recoil": 4,
+        "gravity": 0.02,
+        "zoom": 0.9,
+        "group": "SIDEARM"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "m712",
+        "silencedShoot": "colt_m45a1_silenced",
+        "reload": "m712_reload",
+        "unload": "m712_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "noaction_draw"
+    }
+}

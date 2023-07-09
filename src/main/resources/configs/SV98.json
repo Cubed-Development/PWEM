@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 14,
+        "fireRate": 0.16,
+        "recoil": 9,
+        "gravity": 0,
+        "zoom": 0.8,
+        "group": "LONG_RANGE_RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "sv98",
+        "silencedShoot": "sniper_silenced",
+        "reload": "sv98_reload",
+        "unload": "m40a6_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "noaction_draw"
+    }
+}

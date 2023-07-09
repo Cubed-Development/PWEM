@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 5,
+        "fireRate": 0.85,
+        "recoil": 1.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "SMG"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "mpx",
+        "silencedShoot": "m4a1_silenced",
+        "reload": "mpx_reload",
+        "unload": "mpx_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "noaction_draw"
+    }
+}

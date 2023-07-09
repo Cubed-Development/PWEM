@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 7.5,
+        "fireRate": 0.5,
+        "recoil": 9,
+        "gravity": 0.8,
+        "zoom": 0.9,
+        "group": "SHOTGUN"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "ks23",
+        "silencedShoot": "ShotgunSilenced",
+        "reload": "drawweapon",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "null"
+    }
+}

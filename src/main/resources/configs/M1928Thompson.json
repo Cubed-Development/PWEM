@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 5.3,
+        "fireRate": 0.75,
+        "recoil": 1.8,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "SMG"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "m1a1_thompson",
+        "silencedShoot": "ak15_silenced",
+        "reload": "m1928_reload",
+        "unload": "thompson_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "noaction_draw"
+    }
+}

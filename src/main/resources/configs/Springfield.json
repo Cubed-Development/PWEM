@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 15,
+        "fireRate": 0.16,
+        "recoil": 6,
+        "gravity": 0,
+        "zoom": 0.8,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "springfield",
+        "silencedShoot": "AR15silenced",
+        "reload": "springfield_bolt_pulled",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "null",
+        "draw": "noaction_draw"
+    }
+}

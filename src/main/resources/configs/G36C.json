@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 6,
+        "fireRate": 0.75,
+        "recoil": 2.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 3,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "g36c",
+        "silencedShoot": "m4a1_silenced",
+        "reload": "g36c_reload",
+        "unload": "g36c_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "noaction_draw"
+    }
+}

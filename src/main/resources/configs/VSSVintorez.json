@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 13,
+        "fireRate": 0.7,
+        "recoil": 1.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "LONG_RANGE_RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "vss_vintorez",
+        "silencedShoot": "ak15_silenced",
+        "reload": "ak15_reload",
+        "unload": "ak_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "ak_draw"
+    }
+}

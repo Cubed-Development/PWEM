@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 25,
+        "fireRate": 0.1,
+        "recoil": 14,
+        "gravity": 0,
+        "zoom": 0.8,
+        "group": "LONG_RANGE_RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "as50",
+        "silencedShoot": "as50_silenced",
+        "reload": "as50_reload",
+        "unload": "as50_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "as50_draw"
+    }
+}

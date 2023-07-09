@@ -1,8 +1,8 @@
 {
     "stats": {
-        "damage": 5.0,
+        "damage": 5,
         "fireRate": 0.85,
-        "recoil": 2.0,
+        "recoil": 2,
         "gravity": 0.0118,
         "zoom": 0.9,
         "group": "SMG"
@@ -11,16 +11,6 @@
         "single": true,
         "burst": 0,
         "auto": true
-    },
-    "recoil": {
-        "weaponPower": 15.0,
-        "muzzleClimbDivisor": 15.75,
-        "stockLength": 50.0,
-        "prnr": 0.4,
-        "prnsr": 0.3125,
-        "weaponRotX": 0.0,
-        "weaponRotY": 0.0,
-        "adsSimilarity": 1.0
     },
     "sound": {
         "shoot": "apc9",

@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 13.5,
+        "fireRate": 0.99,
+        "recoil": 2,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "HEAVY"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "mg42",
+        "silencedShoot": "ak15_silenced",
+        "reload": "mg42_reload",
+        "unload": "mg42_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "mg42_draw"
+    }
+}

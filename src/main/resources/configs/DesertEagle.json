@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 12,
+        "fireRate": 0.2,
+        "recoil": 5,
+        "gravity": 0.02,
+        "zoom": 0.9,
+        "group": "SIDEARM"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "desert_eagle",
+        "silencedShoot": "m9a1_silenced",
+        "reload": "deagle_reload",
+        "unload": "pistol_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "handgun_draw"
+    }
+}

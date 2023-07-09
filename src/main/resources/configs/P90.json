@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 5.5,
+        "fireRate": 0.85,
+        "recoil": 1.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "SMG"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "p90",
+        "silencedShoot": "mp5_silenced",
+        "reload": "p90_reload",
+        "unload": "p90_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "noaction_draw"
+    }
+}

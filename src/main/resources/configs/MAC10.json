@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 5.3,
+        "fireRate": 0.999,
+        "recoil": 1,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "SMG"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "mac10",
+        "silencedShoot": "mp5_silenced",
+        "reload": "mac10_reload",
+        "unload": "mac10_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "noaction_draw"
+    }
+}

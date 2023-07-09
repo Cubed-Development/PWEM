@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 11,
+        "fireRate": 0.2,
+        "recoil": 7,
+        "gravity": 0.016,
+        "zoom": 0.9,
+        "group": "REVOLVER"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "magnum44",
+        "silencedShoot": "M9silenced",
+        "reload": "revolver_reload",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "null",
+        "draw": "null"
+    }
+}

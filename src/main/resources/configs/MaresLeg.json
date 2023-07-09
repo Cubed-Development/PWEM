@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 5.5,
+        "fireRate": 0.5,
+        "recoil": 9,
+        "gravity": null,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "mares_leg",
+        "silencedShoot": "mares_leg",
+        "reload": "drawweapon",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "null",
+        "draw": "noaction_draw"
+    }
+}

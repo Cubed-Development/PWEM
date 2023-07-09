@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 6,
+        "fireRate": 0.4,
+        "recoil": 5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "SHOTGUN"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "saiga12",
+        "silencedShoot": "ak15_silenced",
+        "reload": "ak15_reload",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "ak_draw"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 6,
+        "fireRate": 0.65,
+        "recoil": 3,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 3,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "acr",
+        "silencedShoot": "m4a1_silenced",
+        "reload": "acr_reload",
+        "unload": "acr_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "null",
+        "draw": "acr_draw"
+    }
+}

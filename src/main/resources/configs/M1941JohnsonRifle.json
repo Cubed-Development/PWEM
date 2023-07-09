@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 15,
+        "fireRate": 0.5,
+        "recoil": 2.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "m1941",
+        "silencedShoot": "ak15_silenced",
+        "reload": "m1941_rifle_reload",
+        "unload": "ak_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "ak_draw"
+    }
+}

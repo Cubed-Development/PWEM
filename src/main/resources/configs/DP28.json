@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 14,
+        "fireRate": 0.5,
+        "recoil": 4,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "HEAVY"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "dp28",
+        "silencedShoot": "ak15_silenced",
+        "reload": "dp28_reload",
+        "unload": "dp28_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "dp28_draw"
+    }
+}

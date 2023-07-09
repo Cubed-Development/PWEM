@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 2,
+        "fireRate": 0.9999999,
+        "recoil": 1,
+        "gravity": 99,
+        "zoom": 0.9,
+        "group": "null"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "chainsaw",
+        "silencedShoot": "chainsaw",
+        "reload": "nv4_reload",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "m4a1_inspection",
+        "draw": "m4_draw"
+    }
+}

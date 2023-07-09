@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 10,
+        "fireRate": 0.7,
+        "recoil": 4.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "DMR"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "mk14ebr",
+        "silencedShoot": "mk14ebr_silenced",
+        "reload": "mk14ebr_reload",
+        "unload": "mk14_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "mk14_draw"
+    }
+}

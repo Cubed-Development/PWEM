@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 5.3,
+        "fireRate": 0.5,
+        "recoil": 3,
+        "gravity": 0.02,
+        "zoom": 0.9,
+        "group": "SIDEARM"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "colt_m45a1",
+        "silencedShoot": "colt_m45a1_silenced",
+        "reload": "m45a1_reload",
+        "unload": "pistol_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "handgun_draw"
+    }
+}

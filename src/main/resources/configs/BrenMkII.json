@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 10,
+        "fireRate": 0.5,
+        "recoil": 2.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "HEAVY"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "bren",
+        "silencedShoot": "ak15_silenced",
+        "reload": "ak15_reload",
+        "unload": "ak_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "ak_draw"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 7,
+        "fireRate": 0.7,
+        "recoil": 2,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "kbp_9a91",
+        "silencedShoot": "kbp9a91_silenced",
+        "reload": "kbp9a91_reload",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "ak_draw"
+    }
+}

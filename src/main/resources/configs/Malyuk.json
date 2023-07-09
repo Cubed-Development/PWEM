@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 6.6,
+        "fireRate": 0.6,
+        "recoil": 3.5,
+        "gravity": 0.0118,
+        "zoom": 0.9,
+        "group": "RIFLES"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "sound": {
+        "shoot": "ak47",
+        "silencedShoot": "ak15_silenced",
+        "reload": "ak_reload",
+        "unload": "ak_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "ak_draw"
+    }
+}

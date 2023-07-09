@@ -1,0 +1,24 @@
+{
+    "stats": {
+        "damage": 6,
+        "fireRate": 0.2,
+        "recoil": 9,
+        "gravity": 0.8,
+        "zoom": 0.9,
+        "group": "SHOTGUN"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": false
+    },
+    "sound": {
+        "shoot": "browningauto5",
+        "silencedShoot": "ShotgunSilenced",
+        "reload": "drawweapon",
+        "unload": "unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "null"
+    }
+}
