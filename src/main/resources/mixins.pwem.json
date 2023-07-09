@@ -13,6 +13,7 @@
         "AK12_kalFactoryMixin",
         "AK12FactoryMixin",
         "AK15FactoryMixin",
-        "AK47FactoryMixin"
+        "AK47FactoryMixin",
+        "AK74FactoryMixin"
     ]
 }
