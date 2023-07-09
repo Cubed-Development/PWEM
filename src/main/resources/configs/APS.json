@@ -1,0 +1,34 @@
+{
+    "stats": {
+        "damage": 5.0,
+        "fireRate": 0.6,
+        "recoil": 3.0,
+        "gravity": 0.02,
+        "zoom": 0.9,
+        "group": "PISTOL"
+    },
+    "shooting": {
+        "single": true,
+        "burst": 0,
+        "auto": true
+    },
+    "recoil": {
+        "weaponPower": 15.0,
+        "muzzleClimbDivisor": 15.75,
+        "stockLength": 50.0,
+        "prnr": 0.4,
+        "prnsr": 0.3125,
+        "weaponRotX": 0.0,
+        "weaponRotY": 0.0,
+        "adsSimilarity": 1.0
+    },
+    "sound": {
+        "shoot": "aps",
+        "silencedShoot": "m9a1_silenced",
+        "reload": "aps_reload",
+        "unload": "pistol_unload",
+        "endOfShootSound": "gun_click",
+        "inspect": "inspection",
+        "draw": "handgun_draw"
+    }
+}
