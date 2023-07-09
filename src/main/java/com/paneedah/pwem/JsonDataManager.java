@@ -160,7 +160,13 @@ public class JsonDataManager {
 
     public float getFloat(final String path) {
         try {
-            return ((BigDecimal)get(path)).floatValue();
+            Object obj = get(path);
+            if (obj instanceof Double) return ((Double)obj).floatValue();
+            else if (obj instanceof Integer) return ((Integer)obj).floatValue();
+            else if (obj instanceof Long) return ((Long)obj).floatValue();
+            else if (obj instanceof BigDecimal) return ((BigDecimal)obj).floatValue();
+            else if (obj instanceof Float) return (Float)obj;
+            else return 0F;
         } catch (final Exception ex) {
             ex.printStackTrace();
             return 0F;
