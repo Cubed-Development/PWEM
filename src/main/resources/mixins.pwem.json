@@ -18,6 +18,7 @@
         "AK101FactoryMixin",
         "APC9FactoryMixin",
         "APSFactoryMixin",
-        "AR10SuperSASSFactoryMixin"
+        "AR10SuperSASSFactoryMixin",
+        "AR15FactoryMixin"
     ]
 }
