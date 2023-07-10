@@ -1,4 +1,4 @@
-package com.paneedah.pwem;
+package com.paneedah.pwem.data;
 
 import org.apache.commons.io.FileUtils;
 import org.json.JSONArray;
@@ -10,11 +10,9 @@ import java.io.File;
 import java.io.FileReader;
 import java.math.BigDecimal;
 import java.net.URL;
-import java.text.ParseException;
 
-import static com.paneedah.pwem.ModReference.LOG;
+import static com.paneedah.pwem.data.ModReference.LOG;
 
-@SuppressWarnings("unused")
 public class JsonDataManager {
     File file;
     JSONObject root;
@@ -47,10 +45,6 @@ public class JsonDataManager {
         } catch (final Exception ex) {
             ex.printStackTrace();
         }
-    }
-
-    public JSONObject getRoot() {
-        return root;
     }
 
     public synchronized void set(final String path, final Object value) {
@@ -111,21 +105,22 @@ public class JsonDataManager {
 
     public String getString(final String path) {
         try {
-            return (String)get(path);
+            return get(path).toString();
         } catch (final Exception ex) {
-            LOG.error("An error occurred while parsing the String from the path: "+path+". Returning as string value.");
-            try {
-                return get(path).toString();
-            } catch (final JSONException ex1) {
-                ex.printStackTrace();
-                return null;
-            }
+            ex.printStackTrace();
+            return null;
         }
     }
 
     public int getInt(final String path) {
         try {
-            return (int)get(path);
+            final Object obj = get(path);
+            if (obj instanceof Double) return ((Double)obj).intValue();
+            if (obj instanceof Integer) return (Integer)obj;
+            if (obj instanceof Long) return ((Long)obj).intValue();
+            if (obj instanceof BigDecimal) return ((BigDecimal)obj).intValue();
+            if (obj instanceof Float) return ((Float)obj).intValue();
+            throw new IllegalStateException("Object is not a supported value (Double, Integer, Long, BigDecimal, Float).");
         } catch (final Exception ex) {
             ex.printStackTrace();
             return 0;
@@ -134,7 +129,10 @@ public class JsonDataManager {
 
     public boolean getBoolean(final String path) {
         try {
-            return (Boolean)get(path);
+            final Object obj = get(path);
+            if (obj instanceof Boolean) return (Boolean)obj;
+            if (obj instanceof String) return Boolean.parseBoolean((String)obj);
+            throw new IllegalStateException("Object is not a supported value (Boolean, String).");
         } catch (final Exception ex) {
             ex.printStackTrace();
             return false;
@@ -143,7 +141,13 @@ public class JsonDataManager {
 
     public double getDouble(final String path) {
         try {
-            return (double)get(path);
+            final Object obj = get(path);
+            if (obj instanceof Double) return (Double)obj;
+            if (obj instanceof Integer) return ((Integer)obj).doubleValue();
+            if (obj instanceof Long) return ((Long)obj).doubleValue();
+            if (obj instanceof BigDecimal) return ((BigDecimal)obj).doubleValue();
+            if (obj instanceof Float) return ((Float)obj).doubleValue();
+            throw new IllegalStateException("Object is not a supported value (Double, Integer, Long, BigDecimal, Float).");
         } catch (final Exception ex) {
             ex.printStackTrace();
             return 0.00D;
@@ -152,7 +156,13 @@ public class JsonDataManager {
 
     public long getLong(final String path) {
         try {
-            return (long)get(path);
+            final Object obj = get(path);
+            if (obj instanceof Double) return ((Double)obj).longValue();
+            if (obj instanceof Integer) return ((Integer)obj).longValue();
+            if (obj instanceof Long) return (Long)obj;
+            if (obj instanceof BigDecimal) return ((BigDecimal)obj).longValue();
+            if (obj instanceof Float) return ((Float)obj).longValue();
+            throw new IllegalStateException("Object is not a supported value (Double, Integer, Long, BigDecimal, Float).");
         } catch (final Exception ex) {
             ex.printStackTrace();
             return 0L;
@@ -161,13 +171,13 @@ public class JsonDataManager {
 
     public float getFloat(final String path) {
         try {
-            Object obj = get(path);
+            final Object obj = get(path);
             if (obj instanceof Double) return ((Double)obj).floatValue();
-            else if (obj instanceof Integer) return ((Integer)obj).floatValue();
-            else if (obj instanceof Long) return ((Long)obj).floatValue();
-            else if (obj instanceof BigDecimal) return ((BigDecimal)obj).floatValue();
-            else if (obj instanceof Float) return (Float)obj;
-            else throw new IllegalStateException("Object is not a supported value (Double, Integer, Long, BigDecimal, Float).");
+            if (obj instanceof Integer) return ((Integer)obj).floatValue();
+            if (obj instanceof Long) return ((Long)obj).floatValue();
+            if (obj instanceof BigDecimal) return ((BigDecimal)obj).floatValue();
+            if (obj instanceof Float) return (Float)obj;
+            throw new IllegalStateException("Object is not a supported value (Double, Integer, Long, BigDecimal, Float).");
         } catch (final Exception ex) {
             ex.printStackTrace();
             return 0F;
@@ -181,9 +191,5 @@ public class JsonDataManager {
             ex.printStackTrace();
             return false;
         }
-    }
-
-    public boolean isEmpty(final String path) {
-        return root.isEmpty();
     }
 }
