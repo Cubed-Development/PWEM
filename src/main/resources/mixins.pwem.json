@@ -107,6 +107,7 @@
         "Remington870FactoryMixin",
         "RPG7FactoryMixin",
         "S710TricunFactoryMixin",
+        "M249FactoryMixin",
         "Saiga12FactoryMixin",
         "ScarHFactoryMixin",
         "ScarLFactoryMixin",
