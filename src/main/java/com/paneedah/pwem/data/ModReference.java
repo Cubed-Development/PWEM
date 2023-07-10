@@ -1,5 +1,6 @@
-package com.paneedah.pwem;
+package com.paneedah.pwem.data;
 
+import com.paneedah.pwem.Tags;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

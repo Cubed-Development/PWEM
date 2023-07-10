@@ -1,7 +1,7 @@
 package com.paneedah.pwem.mixin;
 
 import com.paneedah.mwc.items.guns.M79Factory;
-import com.paneedah.pwem.JsonDataManager;
+import com.paneedah.pwem.data.JsonDataManager;
 import com.paneedah.pwem.PWEM;
 import com.paneedah.weaponlib.config.BalancePackManager;
 import org.json.JSONObject;
