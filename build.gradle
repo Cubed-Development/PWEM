@@ -46,6 +46,10 @@ tasks.injectTags.configure {
 configurations {
     // Define a configuration to download and attach sources
     sources
+
+    // Define a configuration to include embedded dependencies into the jar
+    implementation
+    compile.extendsFrom(embed)
 }
 
 repositories {
@@ -102,6 +106,9 @@ jar {
             'FMLCorePluginContainsFMLMod': 'true',
             'ForceLoadAsMod': 'true'
     ])
+
+    // Add all embedded dependencies into the jar
+    from(provider{ configurations.embed.collect {it.isDirectory() ? it : zipTree(it)} })
 }
 
 
