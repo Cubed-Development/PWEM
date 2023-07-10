@@ -100,16 +100,6 @@ Here's a default configuration file for the **AACHoneyBadger**, and I will walk 
 - `burst` - The amount of bullets the weapon will shoot in burst fire mode (0 to disable).
 - `auto` - Whether or not the weapon can shoot in automatic fire mode.
 
-### Recoil
-- `weaponPower` - The power of the weapon.
-- `muzzleClimbDivisor` - The muzzle climb divisor.
-- `stockLength` - "Stock Length".
-- `prnr` - Recovery rate from initial shot.
-- `prnsr` - Recovery rate @ "stock".
-- `weaponRotX` - Weapon rotation X.
-- `weaponRotY` - Weapon rotation Y.
-- `adsSimilarity` - ADS Similarity divisor.
-
 ### Sound
 - `shoot` - The sound the weapon will make when shooting.
 - `silencedShoot` - The sound the weapon will make when shooting with a silencer.
