@@ -5,6 +5,9 @@
         "recoil": 11,
         "gravity": 0.8,
         "zoom": 0.9,
+        "pellets": 10,
+        "ammoCapacity": 7,
+        "bulletsPerReload": 7,
         "group": "SHOTGUN"
     },
     "shooting": {
