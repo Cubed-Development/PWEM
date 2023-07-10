@@ -5,6 +5,7 @@
         "recoil": 15,
         "gravity": 0.8,
         "zoom": 0.9,
+        "pellets": 10,
         "group": "SHOTGUN"
     },
     "shooting": {
