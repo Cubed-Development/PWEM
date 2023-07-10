@@ -11,8 +11,6 @@ import java.io.FileReader;
 import java.math.BigDecimal;
 import java.net.URL;
 
-import static com.paneedah.pwem.data.ModReference.LOG;
-
 public class JsonDataManager {
     File file;
     JSONObject root;
@@ -26,6 +24,7 @@ public class JsonDataManager {
                 FileUtils.copyURLToFile(url, file);
             }
             root = new JSONObject(new JSONTokener(new FileReader(file)));
+            new ConfigurationVerifier(this).verify();
         } catch (final Exception ex) {
             ex.printStackTrace();
         }

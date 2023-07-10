@@ -15,7 +15,6 @@ public class PWEM {
     @Mod.EventHandler
     @SuppressWarnings("ResultOfMethodCallIgnored")
     public void preInit(FMLPreInitializationEvent e) {
-        if (!CONFIG_DIR.exists())
-            CONFIG_DIR.mkdirs();
+        if (!CONFIG_DIR.exists()) CONFIG_DIR.mkdirs();
     }
 }

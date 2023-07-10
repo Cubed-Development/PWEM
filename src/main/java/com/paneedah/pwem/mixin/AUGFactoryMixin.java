@@ -1,8 +1,8 @@
 package com.paneedah.pwem.mixin;
 
 import com.paneedah.mwc.items.guns.AUGFactory;
-import com.paneedah.pwem.data.JsonDataManager;
 import com.paneedah.pwem.PWEM;
+import com.paneedah.pwem.data.JsonDataManager;
 import com.paneedah.weaponlib.config.BalancePackManager;
 import org.json.JSONObject;
 import org.spongepowered.asm.mixin.Mixin;
