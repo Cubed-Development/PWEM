@@ -73,7 +73,6 @@
         "M1GarandFactoryMixin",
         "M200InterventionFactoryMixin",
         "M202FactoryMixin",
-        "M249FactoryMixin",
         "M32MGLFactoryMixin",
         "M38FactoryMixin",
         "M40A6FactoryMixin",

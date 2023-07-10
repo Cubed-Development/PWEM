@@ -3,7 +3,6 @@ package com.paneedah.pwem.mixin;
 import com.paneedah.mwc.items.guns.Type20Factory;
 import com.paneedah.pwem.JsonDataManager;
 import com.paneedah.pwem.PWEM;
-import com.paneedah.weaponlib.compatibility.RecoilParam;
 import com.paneedah.weaponlib.config.BalancePackManager;
 import org.json.JSONObject;
 import org.spongepowered.asm.mixin.Mixin;
