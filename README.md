@@ -65,16 +65,6 @@ Here's a default configuration file for the **AACHoneyBadger**, and I will walk 
         "burst": 0,
         "auto": true
     },
-    "recoil": {
-        "weaponPower": 15.0,
-        "muzzleClimbDivisor": 15.75,
-        "stockLength": 50.0,
-        "prnr": 0.4,
-        "prnsr": 0.3125,
-        "weaponRotX": 0.0,
-        "weaponRotY": 0.0,
-        "adsSimilarity": 1.0
-    },
     "sound": {
         "shoot": "aac_honeybadger",
         "silencedShoot": "aac_honeybadger",
