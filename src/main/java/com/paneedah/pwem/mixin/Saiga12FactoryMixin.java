@@ -44,6 +44,11 @@ public class Saiga12FactoryMixin {
         return weaponData.getFloat("stats.zoom");
     }
 
+    @ModifyArg(method = "createGun", at = @At(value = "INVOKE", target = "Lcom/paneedah/weaponlib/Weapon$Builder;withPellets(I)Lcom/paneedah/weaponlib/Weapon$Builder;", remap = false), remap = false, require = 0)
+    private int modifyPellets(final int i) {
+        return weaponData.getInt("stats.pellets");
+    }
+
     @ModifyArg(method = "createGun", at = @At(value = "INVOKE", target = "Lcom/paneedah/weaponlib/Weapon$Builder;withConfigGroup(Lcom/paneedah/weaponlib/config/BalancePackManager$GunConfigurationGroup;)Lcom/paneedah/weaponlib/Weapon$Builder;", remap = false), remap = false, require = 0)
     private BalancePackManager.GunConfigurationGroup modifyConfigGroup(final BalancePackManager.GunConfigurationGroup cg) {
         return BalancePackManager.GunConfigurationGroup.valueOf(weaponData.getString("stats.group"));
