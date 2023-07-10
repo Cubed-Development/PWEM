@@ -2,10 +2,10 @@
   {
     "modid": "${id}",
     "name": "PWEM",
-    "description": "Panda's Weapon Mod Editor, an official Editor made by the Cubed team for Modern Warfare Cubed.",
+    "description": "Panda's Weapon Editor Mod, an official Editor made by the Cubed team for Modern Warfare Cubed.",
     "version": "${version}",
     "mcversion": "1.12.2",
-    "url": "https://github.com/Paneedah/Modern-Warfare-Cubed",
+    "url": "https://github.com/Cubed-Development/PWEM",
     "authorList": ["Paneedah"],
     "credits": "Cubed Development Team",
     "logoFile": "",
