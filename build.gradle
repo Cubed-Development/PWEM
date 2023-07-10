@@ -63,7 +63,9 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.json', name: 'json', version: '20230618'
+    implementation 'org.json:json:20230227'
+    embed 'org.json:json:20230227'
+
     implementation rfg.deobf("curse.maven:modern-warfare-cubed-836353:4556604")
     
     String mixin = modUtils.enableMixins('zone.rong:mixinbooter:8.3', "mixins.${project.id}.refmap.json")
