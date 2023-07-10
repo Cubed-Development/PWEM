@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.math.BigDecimal;
 import java.net.URL;
+import java.text.ParseException;
 
 import static com.paneedah.pwem.ModReference.LOG;
 
@@ -166,7 +167,7 @@ public class JsonDataManager {
             else if (obj instanceof Long) return ((Long)obj).floatValue();
             else if (obj instanceof BigDecimal) return ((BigDecimal)obj).floatValue();
             else if (obj instanceof Float) return (Float)obj;
-            else return 0F;
+            else throw new IllegalStateException("Object is not a supported value (Double, Integer, Long, BigDecimal, Float).");
         } catch (final Exception ex) {
             ex.printStackTrace();
             return 0F;
