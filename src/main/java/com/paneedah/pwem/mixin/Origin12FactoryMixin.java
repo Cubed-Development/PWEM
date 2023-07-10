@@ -49,6 +49,11 @@ public class Origin12FactoryMixin {
         return BalancePackManager.GunConfigurationGroup.valueOf(weaponData.getString("stats.group"));
     }
 
+    @ModifyArg(method = "createGun", at = @At(value = "INVOKE", target = "Lcom/paneedah/weaponlib/Weapon$Builder;withPellets(I)Lcom/paneedah/weaponlib/Weapon$Builder;", remap = false), remap = false, require = 0)
+    private int modifyPellets(final int i) {
+        return weaponData.getInt("stats.pellets");
+    }
+
     @ModifyArg(method = "createGun", at = @At(value = "INVOKE", target = "Lcom/paneedah/weaponlib/Weapon$Builder;withMaxShots([I)Lcom/paneedah/weaponlib/Weapon$Builder;", remap = false), remap = false, require = 0)
     private int[] modifyMaxShots(final int[] i) {
         final JSONObject object = weaponData.getJsonObject("shooting");
