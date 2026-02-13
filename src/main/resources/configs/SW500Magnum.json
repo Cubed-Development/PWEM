@@ -5,7 +5,7 @@
         "recoil": 11,
         "gravity": 0.016,
         "zoom": 0.9,
-        "group": "REVOLVER"
+        "group": "HANDGUN"
     },
     "shooting": {
         "single": true,

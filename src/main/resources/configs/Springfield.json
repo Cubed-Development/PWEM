@@ -5,7 +5,7 @@
         "recoil": 6,
         "gravity": 0,
         "zoom": 0.8,
-        "group": "RIFLES"
+        "group": "RIFLE"
     },
     "shooting": {
         "single": true,

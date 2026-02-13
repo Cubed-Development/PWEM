@@ -5,7 +5,7 @@
         "recoil": 9,
         "gravity": 0.8,
         "zoom": 0.9,
-        "group": "SIDEARM"
+        "group": "HANDGUN"
     },
     "shooting": {
         "single": true,

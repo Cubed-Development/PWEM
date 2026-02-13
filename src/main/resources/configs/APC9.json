@@ -5,7 +5,7 @@
         "recoil": 2,
         "gravity": 0.0118,
         "zoom": 0.9,
-        "group": "SMG"
+        "group": "SUBMACHINE_GUN"
     },
     "shooting": {
         "single": true,
